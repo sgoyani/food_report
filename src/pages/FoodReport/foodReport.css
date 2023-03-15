@@ -1,0 +1,78 @@
+.food-report-container {
+  margin: auto;
+  max-width: 1168px;
+}
+
+.loader-container {
+  margin: 40px 0;
+}
+
+.header-title-text,
+.error-wrapper {
+  text-align: center;
+}
+
+.food-report-table {
+  max-height: 500px;
+}
+
+.article-description .food-class {
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.article {
+  gap: 16px;
+  color: #656565;
+}
+
+.article-description {
+  gap: 6px;
+}
+
+.article-description .date {
+  font-size: 10px;
+  line-height: 20px;
+}
+
+.article-description .separator {
+  padding: 0 5px;
+}
+
+.article-position {
+  font-size: 32px;
+}
+
+.article-description .description {
+  font-size: 14px;
+  line-height: 20px;
+
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.article-description .food-class {
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.food-report-container .favorite-button-wrapper {
+  text-align: end;
+}
+
+.food-report-container .favorite-button {
+  box-shadow: 0 6px 10px rgb(0 0 0 / 14%), 0 1px 18px rgb(0 0 0 / 12%),
+    0 3px 5px rgb(0 0 0 / 20%);
+}
+
+@media screen and (max-width: 1199px) {
+  .food-report-container {
+    padding: 0 8px;
+  }
+
+  .food-report-grid-layout {
+    display: block !important;
+  }
+}

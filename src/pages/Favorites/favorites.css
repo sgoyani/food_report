@@ -1,0 +1,22 @@
+.favorites-container {
+ margin: auto;
+ max-width: 1168px;
+}
+
+.loader-container {
+  margin: 40px 0;
+}
+
+.favorites-container .food-list-table {
+  max-height: 400px;
+}
+
+.header-title-text {
+  text-align: center;
+}
+
+@media screen and (max-width: 1199px) {
+  .favorites-container {
+    padding: 0 8px;
+  }
+}

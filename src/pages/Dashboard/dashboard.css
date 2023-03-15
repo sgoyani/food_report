@@ -1,0 +1,45 @@
+.dashboard-container {
+  margin: auto;
+  max-width: 1168px;
+}
+
+.loader-container {
+  margin: 40px 0;
+}
+
+.dashboard-container .food-list-table {
+  max-height: 500px;
+}
+
+.header-title-text {
+  text-align: center;
+}
+
+.k-i-heart-filled {
+  color: red;
+}
+
+.favorite-button {
+  border-radius: 9999px !important;
+}
+
+.search-input {
+  width: 100% !important;
+  max-width: 400px !important;
+  box-shadow: rgba(100, 100, 111, 0.2) 3px 3px 10px 0px !important;
+}
+
+.loading-text {
+  margin: 0;
+}
+
+.dashboard-container .favorite-button {
+  box-shadow: 0 6px 10px rgb(0 0 0 / 14%), 0 1px 18px rgb(0 0 0 / 12%),
+    0 3px 5px rgb(0 0 0 / 20%);
+}
+
+@media screen and (max-width: 1199px) {
+  .dashboard-container {
+    padding: 0 8px;
+  }
+}
