@@ -1,6 +1,6 @@
 import { useCallback, useEffect, useState } from 'react';
 
-import { LOCAL_STORAGE_FAVORITES } from '../constants/codes';
+import { LOCAL_STORAGE_FAVORITES } from 'constants/codes';
 
 const useFavorites = () => {
   const [favorites, setFavorites] = useState<IFavorites>(

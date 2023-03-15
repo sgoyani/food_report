@@ -7,10 +7,10 @@ import {
   GridRowClickEvent
 } from '@progress/kendo-react-grid';
 
-import LoaderComponent from '../../components/Loader';
-import { getFoodsByFdcIds } from '../../api/foods/routes';
-import useFavorites from '../../hooks/useFavorites';
-import { FOOD_REPORT } from '../../constants/paths';
+import LoaderComponent from 'components/Loader';
+import { getFoodsByFdcIds } from 'api/foods/routes';
+import useFavorites from 'hooks/useFavorites';
+import { FOOD_REPORT } from 'constants/paths';
 
 import './favorites.css';
 

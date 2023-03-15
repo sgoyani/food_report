@@ -2,10 +2,10 @@ import * as React from 'react';
 import { useParams } from 'react-router-dom';
 import { useQuery } from 'react-query';
 
-import LoaderComponent from '../../components/Loader';
 import FoodBasicReport from './FoodBasicReport';
-import useFavorites from '../../hooks/useFavorites';
-import { getFoodByFdcId } from '../../api/foods/routes';
+import LoaderComponent from 'components/Loader';
+import useFavorites from 'hooks/useFavorites';
+import { getFoodByFdcId } from 'api/foods/routes';
 
 import './foodReport.css';
 

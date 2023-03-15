@@ -6,7 +6,7 @@ import {
   AppBarSpacer,
 } from "@progress/kendo-react-layout";
 
-import { DASHBOARD, FAVORITES } from "../../constants/paths";
+import { DASHBOARD, FAVORITES } from "constants/paths";
 
 import "./appHeader.css";
 

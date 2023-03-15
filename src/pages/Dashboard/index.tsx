@@ -8,10 +8,10 @@ import {
 import { InputChangeEvent } from '@progress/kendo-react-inputs';
 
 import FoodListTable from './FoodListTable';
-import LoaderComponent from '../../components/Loader';
-import { getFoodsList } from '../../api/foods/routes';
-import useFavorites from '../../hooks/useFavorites';
-import { FOOD_REPORT } from '../../constants/paths';
+import LoaderComponent from 'components/Loader';
+import { getFoodsList } from 'api/foods/routes';
+import useFavorites from 'hooks/useFavorites';
+import { FOOD_REPORT } from 'constants/paths';
 
 import './dashboard.css';
 

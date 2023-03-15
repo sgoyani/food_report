@@ -1,5 +1,15 @@
 # food_report
 
+> ### React + Vite codebase containing Food report web app example with integration of Kendo UI (https://www.telerik.com/kendo-react-ui) and NDB Data (https://fdc.nal.usda.gov/api-guide.html) spec and API.
+
+## Getting started
+
+To get the frontend running locally:
+
+- Clone this repo
+- `npm install` to install all req'd dependencies
+- `npm run dev` to start the local server (this project Vite)
+
 ### Setting up the .env file
 
 To set up the .env file for this project, follow these steps:
